@@ -1,0 +1,703 @@
+body
+{ 
+	font-family:Arial;
+	background:url("images/mainback.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed; 
+}
+
+#wrap
+{
+	width: 975px;
+	margin: 0px auto;
+	background-color: #FDEEF4;
+	box-shadow:0px 0px 12px #333333;
+	behavior: url(plugins/ie-css3.htc);
+}
+
+#divider
+{
+	border: 1px black solid; 
+	width: 99.8%;
+}
+
+/*header*/
+
+#header_container
+{
+	width: 975px;
+	height: 100px;
+}
+
+#menuContainer ul li
+{
+	margin:0;
+	list-style: disc outside none;
+	font-size: 11px;
+	float: left;
+	color:white;
+}
+
+#menuContainer li
+{
+	padding-right:25px;
+}
+
+ 
+
+#logo
+{
+	width:90px;
+	height:100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	/*opacity: .75;
+	filter: alpha(opacity = 75);*/
+}
+
+ 
+
+#name
+{
+	float: left;
+	height: 100%;
+	width: 550px;
+}
+
+/*login*/
+
+#loginContainer
+{
+	font-size: 12px;
+	height: 100%;
+	width: 275px;
+	float: right;
+	border-left: 1px black dashed;
+	margin-right: -20px;
+}
+
+ 
+
+#login
+{
+	padding-right: 20px;
+	padding-left: 15px;
+	padding-top: 0px;
+	height: 100%;
+}
+
+ 
+
+.label 
+{
+    margin-top: 3px;
+	width: 30%;
+    float: left;
+    text-align: right;
+	font-weight:bold;
+	font-size:10px;
+}
+
+ 
+
+#login_button
+{
+	border: 1px gray solid;
+	text-align: center;
+	margin-top: 2.5px;
+	padding: 2px 10px;
+	float:left;
+	background-color: #FDD017;
+}
+
+#register_button
+{
+	border: 1px gray solid;
+	text-align: center;
+	margin-top: 2.5px;
+	padding: 2px 10px;
+	float:right;
+	background-color: #FDD017;
+}
+
+#forgot{
+text-align: right;
+padding-top: 0px;
+padding-left: 5px;
+float: right;  
+font-size: 10px;
+}
+
+#forgot a:link, #forgot a:visited, #forgot a:active {
+color: black;
+text-decoration: none;
+}
+
+#forgot a:hover {
+color: gray;
+text-decoration: underline; 
+}
+
+#buttons a:link ,#buttons a:visited, #buttons a:active,#buttons input:link ,#buttons input:visited, #buttons input:active{
+color: gray;
+text-decoration: none;
+font-weight: bold;
+}
+
+#buttons a:hover, #buttons input:hover{
+color: white;
+text-decoration: none; 
+}
+
+/*end of login*/
+
+#subtitle
+{
+margin-top:-25px;
+}
+ 
+#menuContainer ul li:first-child {
+list-style: none;
+}
+
+ 
+
+#menuHolder{
+width: 100%;
+height:15px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: grey;
+}
+
+#menuContainer{
+width: 100%;
+padding-left: 5px;
+}
+
+#menuContainer a,#menuContainer  a:link,#menuContainer  a:visited,#menuContainer  a:active {
+color: white;
+text-decoration: none;
+}
+
+#menuContainer a:hover {
+color: red;
+text-decoration: none; 
+}
+ 
+#header{
+width: 100%;
+height: 100px;
+background-color: gray;
+padding-bottom: 10px;
+padding-top: 10px;
+background: white;
+/*background:url("uploads/head_background.jpg");*/
+background-repeat: repeat-x;
+background-attachment: fixed; 
+}
+
+/*header end*/
+/*content*/
+
+a,a:link,a:visited,a:active {
+color: gray;
+text-decoration: none;
+}
+
+a:hover {
+color: gold;
+text-decoration: none; 
+}
+
+#content, #admin_contentContainer{
+width: 96%;
+margin: 15px auto;
+font-size: 12px;
+word-wrap: break-word;
+
+}
+
+#slideshow{
+
+ height: 300px;
+
+ margin: 10px auto;
+
+ border: 1px black solid;
+
+ background-color: white;
+
+ border-top: none;
+
+ border-bottom: none;
+
+}
+
+
+#adContainer{
+
+height: 188px;
+
+width: 97%;
+
+margin: 0 auto -10px auto;
+
+border-top: 1px black solid;
+
+}
+
+ 
+
+#adContainer a{
+
+ color: transparent;
+
+}
+
+ 
+
+#adHolder{
+
+height:150px;
+
+width: 100%;
+
+margin-left: auto;
+
+margin-right:auto;
+
+margin-top: 10px;
+
+}
+
+ 
+
+.add{
+
+height: 150px;
+
+width: 300px;
+
+border: 1px black solid;
+
+float: left;
+
+overflow:hidden;
+
+}
+
+#ad1
+
+{
+
+ margin-right:18px;
+
+}
+
+#ad3
+
+{
+
+float:right;
+
+}
+
+/*content end*/
+
+ 
+
+.odd{
+
+ background:#EDDA74;
+
+}
+
+.even{
+
+ background:#ADA96E;
+
+}
+
+.aeven{
+
+ background:#C0C0C0;
+
+}
+
+.aodd{
+
+ background:#FDEEF4;
+
+}
+
+
+.labelreg {
+
+ padding-top:5px;
+
+    float: left;
+
+ width:150px;
+
+ padding-left:10px;
+
+ font-family:Arial;
+
+ font-size:1.1em;
+
+}
+
+.inputreg{
+
+    float:left;
+
+	background-color: transparent
+
+}
+
+.title{
+
+padding:0px;
+
+margin:0px 0px;
+
+margin-bottom:5px;
+
+ text-align:left;
+
+}
+
+#examplenumber{
+
+padding-left:3px;
+
+margin-top:5px;
+
+color:gray;
+
+}
+
+ 
+
+ #footer{
+
+ width: 100%;
+
+ height: 25px;
+
+ background-color: white;
+
+ /*background:url("uploads/head_background.jpg");*/
+
+ background-repeat: repeat-x; 
+
+}
+
+ 
+
+#form1_errorloc a{
+
+ 
+
+ color:red;
+
+}
+
+ 
+
+/*logged css*/
+
+ 
+
+#welcomeUser
+
+{
+
+ font-size:1.5em;
+
+ font-weight:bold;
+
+ color:black;
+
+}
+
+ 
+
+#welcomeUserAdmin
+
+{
+
+ font-size:2em;
+
+ font-weight:bold;
+
+ color:red;
+
+ text-align:center;
+
+ margin-top:20px;
+
+}
+
+ 
+
+#choicebox{
+
+ text-align:right;
+
+ padding-right:10px;
+
+}
+
+ 
+
+ .choices, .choices:link, .choices:visited, .choices:active {
+
+ color: gray;
+
+ text-decoration: none;
+
+ text-align:right;
+
+}
+
+ 
+
+.choices:hover {
+
+ color: red;
+
+ text-decoration: none; 
+
+}
+
+ 
+
+/*invalidpage css*/
+
+.invalidstatement
+{
+	color:red;
+	font-size:11px;
+	text-align:center;
+}
+
+/*register error css*/
+
+#regmess{
+
+ color:red;
+
+ font-size:1.3em;
+
+}
+
+/*admin side*/
+
+ 
+
+body.mceContentBody {
+
+   background: white;
+
+   font-size: 12px;   
+
+}
+
+ 
+
+.mceContentBody a {
+
+   color:  #C0C0C0 !important; /* FF requires a important here */
+
+   font-weight: bold;
+
+   /*text-decoration: underline;*/
+
+}
+
+ 
+
+#admin_contentContainer a,#admin_contentContainer a:link,#admin_contentContainer a:visited,#admin_contentContainer a:active {
+
+ color: gray;
+
+ text-decoration: underline;
+
+}
+
+ 
+
+#admin_contentContainer a:hover {
+
+ color: gold;
+
+ text-decoration: none; 
+
+}
+
+table#table1{
+  height:50px;
+}
+table#table1 div{
+  height:50px;
+  overflow:scroll;
+}
+
+.myaccounttitle
+
+{
+
+ font-size:28px;
+
+ font-weight:bold;
+
+}
+
+.error_strings
+{
+	list-style-type: none;
+} 
+
+#submitEdit{
+
+ font-size: 12px;
+
+ border: 0;
+
+ background: transparent;
+
+ color: gray;
+
+ text-decoration: underline;
+
+}
+
+#submitEdit:hover{
+
+ font-size: 12px;
+
+ border: 0;
+
+ background: transparent;
+
+ color: gold;
+
+ text-decoration: none;
+
+}
+
+ 
+
+/*news ticker css*/
+
+#newsticker
+
+{
+
+ height:25px;
+
+ width:937px;
+
+ margin:2px auto;
+
+ background:#FFCC00;
+
+ color:white;
+
+}
+
+#newsticker ul
+
+{
+
+padding:0px;
+
+padding-left:5px;
+
+padding-top:5px;
+
+margin:0px;
+
+list-style-type: none;
+
+font-size: 11px;
+
+ 
+
+}
+
+#newstitle
+
+{
+
+height:20px;
+
+width:80px;
+
+float:left;
+
+background:#FF9900;
+
+font-family:Arial;
+
+padding-top:5px;
+
+text-align:center;
+
+font-weight:bold;
+
+font-size: 10px;
+}
+
+ 
+
+#newsfeeds
+
+{
+
+ float:left;
+
+ width:857px;
+
+ height:100%;
+
+ background:transparent;
+
+}
+
+#newsticker a,#newsticker a:link, #newsticker a:visited, #newsticker a:active
+
+{
+
+ color:black;
+
+ text-decoration:none;
+
+}
+
+#newsticker a:hover
+
+{
+
+ color:black;
+
+ text-decoration:underline;
+
+}
+
+#success_note
+
+{
+
+ margin:0px auto;
+
+ color:red;
+
+ font-weight:bold;
+
+ text-align:center;
+
+}

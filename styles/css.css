@@ -1,0 +1,49 @@
+a.tool
+{
+	float:left;
+	width:7em;
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:0.2em 0.6em;
+	border:1px solid white;
+}
+a.tool:hover 
+{
+	background-color:yellow;
+	color:black;
+}
+#item1
+{  
+    visibility: hidden;
+    z-index: 2;	
+	position:absolute;
+	border:2px solid yellow;
+	background-color:white;
+	padding: 3px;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+}
+#item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9
+{  
+    visibility: hidden;
+    z-index: 2;	
+	position:absolute;
+	border:2px solid orange;
+	background-color:white;
+	padding: 3px;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+}
+#live
+{ 
+    visibility: hidden; 
+	padding: 3px;
+	width:100%;
+	background-color:green;
+	color:white;
+}
+li
+{
+list-style-type:none;
+}
